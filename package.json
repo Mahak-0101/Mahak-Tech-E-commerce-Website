@@ -1,0 +1,35 @@
+{
+  "name": "mahaktech-website",
+  "version": "1.0.0",
+  "description": "MahakTech flagship website - cinematic 3D experience",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "performance-check": "lighthouse https://mahaktech.local --chrome-flags='--headless'"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "three": "^0.157.0",
+    "gsap": "^3.12.2",
+    "framer-motion": "^10.16.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/three": "^0.157.0",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
